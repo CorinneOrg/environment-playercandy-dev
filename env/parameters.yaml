@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:playercandy/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:playercandy/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:playercandy/prow:hmacToken
+segmentWriteKey: vault:playercandy:segmentWriteKey
